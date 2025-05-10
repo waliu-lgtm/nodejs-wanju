@@ -23,7 +23,7 @@ export second_port=${second_port:-''} # 第二端口，部分玩具支持设置�
 # export SUB_URL='https://xxx.eu.org/upload-上传密钥' # 自动上传节点到订阅服务器，需要与服务器搭配
 
 # //模拟启动游戏(去掉#开启)
-# export JAR_SH='moni'
+ export JAR_SH='moni'
 
 # //设置文件保存位置(一般默认即可)
 # export FLIE_PATH="$PWD/worlds/"
