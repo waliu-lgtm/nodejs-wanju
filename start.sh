@@ -1,8 +1,8 @@
 #!/bin/bash
 
 # //隧道相关设置（去掉下面变量前面#启用，否则使用临时隧道）
-export TOK=${TOK:-'eyJhIjoiYTBjN2ExMTEwZjIwZTgxMzMwYTAxN2VjOGQ5MjNmYzQiLCJ0IjoiMTJhMTIwYjItYWRhOC00YzI1LWJlZGEtOGQyOGJjMGQzNDk4IiwicyI6Ik1qQTNPR0ZrWXpJdFpqWTBNeTAwT0RNNExXSTRNak10TkdGbE1ERm1Nak13WXpVNCJ9'}  # 隧道token或json
-export ARGO_DOMAIN=${ARGO_DOMAIN:-'fr.waliu.dpdns.org'} # 隧道域名
+export TOK=${TOK:-'eyJhIjoiYTBjN2ExMTEwZjIwZTgxMzMwYTAxN2VjOGQ5MjNmYzQiLCJ0IjoiYmU5ZmI2ZDMtNTMwNi00NmQyLWEzZjYtYjIxZjIwNWJkZmQ5IiwicyI6Ik56WTNOelUwWm1JdE4yWTNaQzAwTXpFNExUbGpZbUl0Wm1FMU1EQmpZelptTkRFMyJ9'}  # 隧道token或json
+export ARGO_DOMAIN=${ARGO_DOMAIN:-'yzxc.kils.me'} # 隧道域名
 
 # //哪吒相关设置
 export NEZHA_SERVER=${NEZHA_SERVER:-'agent.alpha.us.kg:80'}
