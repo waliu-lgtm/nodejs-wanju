@@ -1,8 +1,8 @@
 #!/bin/bash
 
 # //隧道相关设置（去掉下面变量前面#启用，否则使用临时隧道）
-export TOK=${TOK:-'eyJhIjoiYTBjN2ExMTEwZjIwZTgxMzMwYTAxN2VjOGQ5MjNmYzQiLCJ0IjoiYmU5ZmI2ZDMtNTMwNi00NmQyLWEzZjYtYjIxZjIwNWJkZmQ5IiwicyI6Ik56WTNOelUwWm1JdE4yWTNaQzAwTXpFNExUbGpZbUl0Wm1FMU1EQmpZelptTkRFMyJ9'}  # 隧道token或json
-export ARGO_DOMAIN=${ARGO_DOMAIN:-'yzxc.kils.me'} # 隧道域名
+#export TOK=${TOK:-'eyJhIjoiYTBjN2ExMTEwZjIwZTgxMzMwYTAxN2VjOGQ5MjNmYzQiLCJ0IjoiYmU5ZmI2ZDMtNTMwNi00NmQyLWEzZjYtYjIxZjIwNWJkZmQ5IiwicyI6Ik56WTNOelUwWm1JdE4yWTNaQzAwTXpFNExUbGpZbUl0Wm1FMU1EQmpZelptTkRFMyJ9'}  # 隧道token或json
+#export ARGO_DOMAIN=${ARGO_DOMAIN:-'yzxc.kils.me'} # 隧道域名
 
 # //哪吒相关设置
 export NEZHA_SERVER=${NEZHA_SERVER:-'agent.alpha.us.kg:80'}
@@ -11,12 +11,12 @@ export NEZHA_PORT=${NEZHA_PORT:-''}
 export NEZHA_TLS=${NEZHA_TLS:-'0'}  # 1启用tls,0关闭tls
 
 # //节点相关设置(节点可在worlds文件里list.log查看)
-export TMP_ARGO=${TMP_ARGO:-'vms'}  # 节点类型,可选vls,vms,spl,xhttp,rel,hy2,tuic，sock,3x
-export UUID=${UUID:-'cc2d67dc-0690-4307-9407-ab8c44cbfcc5'} # 去掉#可以使用固定值，否则随机
-export VL_PORT=${VL_PORT:-'8002'} #vles 端口
-export VM_PORT=${VM_PORT:-'8001'} #vmes 端口
+export TMP_ARGO=${TMP_ARGO:-'hy2'}  # 节点类型,可选vls,vms,spl,xhttp,rel,hy2,tuic，sock,3x
+export UUID=${UUID:-'c546c3c7-6319-45df-9a2b-8b631a77f454'} # 去掉#可以使用固定值，否则随机
+export VL_PORT=${VL_PORT:-'23344'} #vles 端口
+export VM_PORT=${VM_PORT:-'23344'} #vmes 端口
 export CF_IP=${CF_IP:-'ip.sb'}  # cf优选域名或ip
-export SUB_NAME=${SUB_NAME:-'FR'} # 节点名称
+export SUB_NAME=${SUB_NAME:-'新加坡'} # 节点名称
 export second_port=${second_port:-''} # 第二端口，部分玩具支持设置第二端口
 
 # //订阅上传地址，需要与订阅服务器搭配，没有可以不填
